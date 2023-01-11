@@ -52,16 +52,16 @@ Sub StockAnalysis()
         
         Else: Total_Volume = Total_Volume + Ws.Cells(I, 7).Value
         
-        If Ws.Cells(I, 10).Value > 0 Then
-        Ws.Cells(I, 10).Interior.ColorIndex = 4
-        Else
-        If Ws.Cells(I, 10).Value < 0 Then
-        Ws.Cells(I, 10).Interior.ColorIndex = 3
-        Else
-        Ws.Cells(I, 10).Interior.ColorIndex = 0
-        End If
-        End If
-         
+            If Ws.Cells(I, 10).Value > 0 Then
+            Ws.Cells(I, 10).Interior.ColorIndex = 4
+            Else
+            If Ws.Cells(I, 10).Value < 0 Then
+            Ws.Cells(I, 10).Interior.ColorIndex = 3
+            Else
+            Ws.Cells(I, 10).Interior.ColorIndex = 0
+            End If
+            End If
+            
         
         End If
     Next I
