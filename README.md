@@ -1,4 +1,5 @@
 # VBA_Challenge
 
-The Script tracks annual changes of the certain stocks and provides annual changes in number and percentages
-The data also sets annual volume of the each stock in the data.
+The Script runs in the stock data to find annual changes in number coresponding percentages
+The data also provide annual volume of the each stock. 
+The changes are colour coded: increases are in green and decreases are in red.
